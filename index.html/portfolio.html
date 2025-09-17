@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+        </nav>
+    </header>
+    <main>
+        <h1>My Resources</h1>
+        <form id="upload-form">
+            <label for="file-upload">Upload a PDF:</label>
+            <input type="file" id="file-upload" accept=".pdf" required>
+            <button type="submit">Upload</button>
+        </form>
+        <div id="upload-message"></div>
+        <div class="resource-grid">
+            <!-- PDFs will appear here -->
+        </div>
+    </main>
+    <footer>© 2025 RISHON KOREN</footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
